@@ -76,7 +76,7 @@ class CocoGenerator(Generator):
     def num_classes(self):
         """ Number of classes in the dataset. For COCO this is 80.
         """
-        return 90
+        return 11
 
     def has_label(self, label):
         """ Return True if label is a known label.
